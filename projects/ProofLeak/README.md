@@ -2,8 +2,8 @@
 
 - **Track(s):** [1 - Advanced Cryptography and 5 - Public Goods]
 - **Team/Contributors:** [steelfeel.eth - zk, blockchain, solidity; 0xxdana.eth - UI/UX, PM, GTM]
-- **Repository:** [Link to your code repository]
-- **Demo:** [(https://pitch.com/v/proofleak---a-secure-platform-to-whistleblow-gxgkp7)]
+- **Repository:** [ProofLeak Repository](https://github.com/steel-feel/hackathon-2025-berlin-submissions.git)
+- **Demo:** [ProofLeak Presentation](https://pitch.com/v/proofleak---a-secure-platform-to-whistleblow-gxgkp7)
 
 ## Description (TL;DR)
 A private and secure whistleblowing platform using zk email verification and onchain attestations to ensure source credibility without compromising anonymity.
