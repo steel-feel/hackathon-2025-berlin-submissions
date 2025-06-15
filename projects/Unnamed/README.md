@@ -27,7 +27,7 @@ This replaces institutional trust with cryptographic proof. ZKPs allow email dom
 - Vulnerable individuals can safely disclose important information without fear of retaliation
 
 ## Business Logic
-We believe this tool should be accessible to all — a Common Public Good funded by aligned communities.
+We believe this tool should be accessible to all, a Common Public Good funded by aligned communities.
 
 ## What's Next
 - Technical community validation
