@@ -6,29 +6,31 @@
 - **Demo:** [Link to live demo, video, or screenshots]
 
 ## Description (TL;DR)
-[A private & secure whistleblower platform using zk email verification and attestation to solve critical verification gaps in anonymous reporting systems.]
+A private and secure whistleblowing platform using zk email verification and onchain attestations to ensure source credibility without compromising anonymity.
 
 ## Problem
-[Current private whistleblower platforms often lack robust encryption and anonymization, risking exposure of sensitive data and whistleblower identities. Centralized systems also make them vulnerable to single points of failure and targeted attacks.]
+Most anonymous reporting platforms rely on central servers, lack cryptographic verification, and expose whistleblowers to surveillance or metadata leaks. Without decentralized trust or ZK-based guarantees, both source safety and information integrity are at risk.
 
 ## Solution
-[Utilising zk proofs for email verification we can prove source legitimacy (organisational affiliation, professional credentials) wihout revealing identity, while blockchain attestations provide tamper-proof evidence authentication and immutable audit trails. This created graduated transparency where sources selectively disclouse verification information while maintaing anonymity. ]
+Using zero-knowledge email proofs, we verify source legitimacy (e.g., domain or role-based credentials) without exposing identity. Blockchain attestations anchor evidence onchain with tamper-proof audit trails. This enables transparency: sources can selectively disclose credentials while maintaining full anonymity.
 
 ## Technology Stack
-[noir , zkemail, TypeScript, JavaScript, Rust, React, VibeCoding, zkverify]
+noir , zkemail, TypeScript, JavaScript, Rust, React, zkverify
 
 ## Privacy Impact
-[Eliminates single points of failure in current trust models by replacing institutional trust with ZKPs. Enables anonymous professional credibility verification and evidence authentication without metadata exposure. ZKPs can verify DKIM signatures without revelaing email content, prove domain affilliation without identity disclosure, and confirm specific email properties while keeping sensitive information private. It allows complete privacy for whistleblowes and an increased level of credibility for the interested communities that can take furhter action.]
+This replaces institutional trust with cryptographic proof. ZKPs allow email domain and DKIM verification without revealing message content or identity. No metadata leaks, no storage of sensitive information. Whistleblowers remain fully private, while communities gain confidence in the credibility of what is submitted.
 
 ## Real-World Use Cases
-[- Corporate whistleblowers proving organisational access without identity disclosure 
- - Professional forums for verified lawyers, journalists, and experts maintaining anonymity
- - News organisations authentication anonymous source evidence with cryptographic guarantees
- - Any party of a community that would otherwise be too vulnerable to share sensitive information if identity disclosed]
+- Corporate insiders can prove access to internal systems or domains without revealing identity
+- Verified legal and journalist-only forums can receive sensitive documents anonymously
+- Newsrooms can cryptographically validate anonymous sources
+- Vulnerable individuals can safely disclose important information without fear of retaliation
 
 ## Business Logic
-[While the model can be grown and marketed as a Infrastructure-as-a-Service model and partner with already established platforms. In terms of revenue it can be done through API usage, enterprise licensing, and premium verification services, however we believe a platform like this should be avaialble to the public without invoking financial entry-barriers and a Common Public Good funded by aligned communities.]
+We believe this tool should be accessible to all — a Common Public Good funded by aligned communities.
 
 ## What's Next
-[Technical community validation
-Dcevelop the ]
+- Technical community validation
+- Develop MVP for full submission flow (wallet + eml + onchain attestation)
+- Expand group attestation features for verified journalist and legal forums
+- Launch with transparency-focused partners and fund as a public good
