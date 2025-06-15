@@ -15,7 +15,7 @@ Most anonymous reporting platforms rely on central servers, lack cryptographic v
 Using zero-knowledge email proofs, we verify source legitimacy (e.g., domain or role-based credentials) without exposing identity. Blockchain attestations anchor evidence onchain with tamper-proof audit trails. This enables transparency: sources can selectively disclose credentials while maintaining full anonymity.
 
 ## Technology Stack
-noir , zkemail, TypeScript, JavaScript, Rust, React, zkverify
+noir ,IPFS, zkemail, TypeScript, JavaScript, Rust, React, zkverify
 
 ## Privacy Impact
 This replaces institutional trust with cryptographic proof. ZKPs allow email domain and DKIM verification without revealing message content or identity. No metadata leaks, no storage of sensitive information. Whistleblowers remain fully private, while communities gain confidence in the credibility of what is submitted.
